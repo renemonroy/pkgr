@@ -1,8 +1,8 @@
 {
   "name": "pkgr",
+  "displayName": "pckr",
   "version": "0.0.1",
   "description": "A quick way to create npm packages.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/renemn/pkgr/issues"
   },
-  "homepage": "https://github.com/renemn/pkgr#readme"
+  "homepage": "https://github.com/renemn/pkgr#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "figlet": "^1.2.0",
+    "fs-extra": "^5.0.0",
+    "minimist": "^1.2.0"
+  }
 }
