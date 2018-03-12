@@ -1,5 +1,5 @@
 {
-  "name": "pkgr",
+  "name": "@renemonroy/pkgr",
   "displayName": "pckr",
   "version": "0.0.1",
   "description": "A quick way to create npm packages.",
