@@ -21,7 +21,7 @@
     "stylelint",
     "cli"
   ],
-  "author": "René Monroy <rene.dev.js@nike.com>",
+  "author": "René Monroy <rene.dev.js@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/renemn/pkgr/issues"
