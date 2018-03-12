@@ -4,19 +4,18 @@ const config = require('../lib/config');
 const log = require('../utils/log');
 const lifespan = require('../utils/lifespan');
 
+const clearScreen = (name, version) => {
+  log.clear();
+  log.sign(name, version, { font: 'Big' });
+};
+
+const stopScript = () => {
+  log.debug('config ↴\n', config);
+  lifespan.finish();
+};
+
 module.exports = (options) => {
   log.debugging = Boolean(options.debug);
-
-  const clearScreen = (name, version) => {
-    log.clear();
-    log.sign(name, version, { font: 'Big' });
-  };
-
-  const stopScript = () => {
-    log.debug('config ↴\n', config);
-    lifespan.finish();
-  };
-
   ((opts) => {
     try {
       lifespan.start();

@@ -7,8 +7,6 @@ const program = require('commander');
 const { version } = require('../package.json');
 const scripts = require('../scripts');
 
-console.log('running program...');
-
 program
   .version(version)
   .usage(`${chalk.green('<command>')} [options]`);
@@ -16,11 +14,9 @@ program
 program
   .command('start')
   .description('Run the demos in a dev server')
+  .option('-p, --port <number>', 'Port to use', parseInt)
   .option('-d, --debug', 'Receive debugging info')
-  .action((options) => {
-    console.log('starting', options);
-    scripts.start(options);
-  });
+  .action(scripts.start);
 
 program
   .parse(process.argv);
