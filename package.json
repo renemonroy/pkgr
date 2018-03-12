@@ -1,0 +1,29 @@
+{
+  "name": "pkgr",
+  "version": "0.0.1",
+  "description": "A quick way to create npm packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renemn/pkgr.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "rollup",
+    "jest",
+    "babel",
+    "eslint",
+    "stylelint",
+    "cli"
+  ],
+  "author": "René Monroy <rene.dev.js@nike.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renemn/pkgr/issues"
+  },
+  "homepage": "https://github.com/renemn/pkgr#readme"
+}
