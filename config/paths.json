@@ -1,0 +1,7 @@
+{
+  "build": "build",
+  "nodeModules": "node_modules",
+  "package": "package.json",
+  "src": "src",
+  "demos": "demos"
+}
